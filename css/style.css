@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    
 }
 
 
@@ -22,7 +23,7 @@ nav .container{
 }
 
 nav .container .navbar-toggler{
-    background: linear-gradient(162.84deg, #3AA56D 11.8%, #00FF79 96.76%);
+    background: linear-gradient(172.59deg, #3AA56D 3.94%, #00FF79 99.44%);
     color: #FFF;
     width: 44px;
     height: 44px;
@@ -40,9 +41,14 @@ nav #navbarNav{
     padding: 10px;
 }
 
+nav #navbarNav .navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    align-self: center;
+}
 nav #navbarNav .navbar-nav .nav-item{
-    text-align: center;
-    margin: 10px auto;
+    margin-top: 10px;
 }
 
 nav #navbarNav .navbar-nav .nav-item .nav-link{
@@ -50,10 +56,12 @@ nav #navbarNav .navbar-nav .nav-item .nav-link{
     font-weight: 600;
     font-size: 16px;
     color: #FBFFFD;
+    border-radius: 5px;
 }
 
 nav #navbarNav .navbar-nav .nav-item .link-nav:hover{
-    border-bottom: 4px solid #04FF7C;
+    color: #00FF79;
+    background-color: #FFF;
 }
   
  #empresa{
