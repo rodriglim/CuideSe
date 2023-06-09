@@ -1,0 +1,10 @@
+@media only screen and (max-width: 767px){
+
+    nav #navbarNav .navbar-nav .nav-item #empresa{
+        width: 140px;
+        margin-left: 0;
+    }
+
+
+ 
+}

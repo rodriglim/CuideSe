@@ -1,0 +1,72 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Nav */
+header{
+    background: linear-gradient(162.84deg, #3AA56D 11.8%, #00FF79 96.76%);
+}
+
+nav .container{
+    display: flex;
+    height: auto;
+}
+
+nav .container .navbar-toggler{
+    background: linear-gradient(162.84deg, #3AA56D 11.8%, #00FF79 96.76%);
+    color: #FFF;
+    width: 44px;
+    height: 44px;
+    border-radius: 100px;
+    border: none;
+    transition: 2s;
+}
+
+nav .container .navbar-toggler:hover{
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+}
+
+nav #navbarNav{
+    padding: 10px;
+}
+
+nav #navbarNav .navbar-nav .nav-item{
+    text-align: center;
+    margin: 10px auto;
+}
+
+nav #navbarNav .navbar-nav .nav-item .nav-link{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FBFFFD;
+}
+
+nav #navbarNav .navbar-nav .nav-item .link-nav:hover{
+    border-bottom: 4px solid #04FF7C;
+}
+  
+ #empresa{
+    width: 140px;
+    height: auto;
+    background-color: #3F6953;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 30px;
+
+}
+
+nav #navbarNav .navbar-nav .nav-item #empresa:hover{
+    transition: 1s;
+    opacity: 0.8;
+}
