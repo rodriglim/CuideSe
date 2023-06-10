@@ -1,10 +1,55 @@
+@media only screen and (max-width: 995px){
+    main .container .row .title h1{
+        font-size: 80px;
+    }
+
+    main .container .row .title h1 > span{
+        font-size: 30px;
+    }
+    
+    main .container .row #col-title > span{
+        width: 310px;
+        font-size: 18px;
+    }
+}
+
 @media only screen and (max-width: 767px){
+    nav{
+        background-color: rgba(58, 164, 109, 0.5);
+    }
 
     nav #navbarNav .navbar-nav .nav-item #empresa{
         width: 140px;
         margin-left: 0;
     }
 
+    main .container .row .title h1{
+        font-size: 60px;
+    }
 
- 
+    main .container .row .title h1 > span{
+        font-size: 20px;
+    }
+    
+
+    main .container .row .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main .container .row #col-title > span{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .container .row #img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .container .row img{
+        transform: rotate(0deg);
+    }
 }
