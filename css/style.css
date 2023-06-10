@@ -10,7 +10,7 @@ body {
     font-family: 'Poppins', sans-serif;
     padding-top: 100px;
     height: 100vh;
-    background: linear-gradient(162.84deg, #3AA56D 11.8%, #00FF79 96.76%), fixed;
+    background-color: rgba(0, 255, 121, 0.9);
 }
 
 
@@ -87,8 +87,7 @@ nav #navbarNav .navbar-nav .nav-item #empresa:hover{
 /* Main */
 
 main{
-    width: 100%;
-  height: auto;
+    height: auto;
 }
 
 

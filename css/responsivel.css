@@ -15,7 +15,8 @@
 
 @media only screen and (max-width: 767px){
     nav{
-        background-color: rgba(58, 164, 109, 0.5);
+        background-color: rgba(0, 255, 121, 0.5);
+        margin-top: 20px;
     }
 
     nav #navbarNav .navbar-nav .nav-item #empresa{
@@ -23,6 +24,9 @@
         margin-left: 0;
     }
 
+    main{
+        margin-top: 50px;
+    }
     main .container .row .title h1{
         font-size: 60px;
     }
