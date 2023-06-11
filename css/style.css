@@ -15,17 +15,17 @@ body {
 
 
 /* Nav */
-nav{
+nav {
     height: auto;
     width: 100%;
 }
 
-nav .container{
+nav .container {
     display: flex;
     height: auto;
 }
 
-nav .container .navbar-toggler{
+nav .container .navbar-toggler {
     background: linear-gradient(172.59deg, #3AA56D 3.94%, #00FF79 99.44%);
     color: #FFF;
     width: 44px;
@@ -35,26 +35,27 @@ nav .container .navbar-toggler{
     transition: 2s;
 }
 
-nav .container .navbar-toggler:hover{
+nav .container .navbar-toggler:hover {
     transform: scale(0.9);
     -webkit-transform: scale(0.9);
 }
 
-nav #navbarNav{
+nav #navbarNav {
     padding: 10px;
 }
 
-nav #navbarNav .navbar-nav{
+nav #navbarNav .navbar-nav {
     display: flex;
     justify-content: center;
     align-items: end;
     align-self: center;
 }
-nav #navbarNav .navbar-nav .nav-item{
+
+nav #navbarNav .navbar-nav .nav-item {
     margin-top: 10px;
 }
 
-nav #navbarNav .navbar-nav .nav-item .nav-link{
+nav #navbarNav .navbar-nav .nav-item .nav-link {
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -62,12 +63,12 @@ nav #navbarNav .navbar-nav .nav-item .nav-link{
     border-radius: 5px;
 }
 
-nav #navbarNav .navbar-nav .nav-item .link-nav:hover{
+nav #navbarNav .navbar-nav .nav-item .link-nav:hover {
     color: #00FF79;
     background-color: #FFF;
 }
-  
- #empresa{
+
+#empresa {
     width: 140px;
     height: auto;
     background-color: #3F6953;
@@ -77,41 +78,42 @@ nav #navbarNav .navbar-nav .nav-item .link-nav:hover{
 
 }
 
-nav #navbarNav .navbar-nav .nav-item #empresa:hover{
+nav #navbarNav .navbar-nav .nav-item #empresa:hover {
     background-color: #FFF;
     color: #00FF79;
-   
+
 }
 
 /* Main */
 
-main{
+main {
     height: auto;
+    margin-bottom: 200px;
 }
 
 
-main .container .row{
+main .container .row {
     display: flex;
     justify-content: center;
     align-items: center;
     align-self: center;
 }
 
-main .container .row .title{
+main .container .row .title {
     font-style: normal;
     color: #FFF;
 }
 
-main .container .row .title h1{
+main .container .row .title h1 {
     font-size: 120px;
     font-weight: 700;
 }
 
-main .container .row .title h1 > span{
+main .container .row .title h1>span {
     font-size: 50px;
 }
 
-main .container .row #col-title > span{
+main .container .row #col-title>span {
     width: 380px;
     display: flex;
     justify-content: center;
@@ -121,6 +123,81 @@ main .container .row #col-title > span{
     font-size: 22px;
 }
 
-main .container .row img{
+main .container .row img {
     transform: rotate(-18deg);
 }
+
+
+/* Section */
+section {
+    width: 100%;
+    height: auto;
+    background-color: #FFF;
+}
+
+section .container {
+    height: auto;
+}
+
+section .container .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section .container .title h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    background: linear-gradient(180deg, #33AF6E 0%, #04F978 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+section .container .buttons {
+    width: 100%;
+    height: auto;
+}
+
+section .container .buttons .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+
+section .container .buttons #col {
+    background-color: #3F6953;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+    text-decoration: none;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #3AA46D 0%, #04F978 100%);
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+section .container .buttons #col:hover{
+    background: #04f177;
+}
+
+section .container .buttons #col a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 140% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
