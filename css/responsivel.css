@@ -15,8 +15,9 @@
 
 @media only screen and (max-width: 767px){
     nav{
+        margin-top: 12px;
         background-color: rgba(0, 255, 121, 0.5);
-        margin-top: 20px;
+        padding-top: 40px;
     }
 
     nav #navbarNav .navbar-nav .nav-item #empresa{
