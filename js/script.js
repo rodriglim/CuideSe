@@ -1,22 +1,12 @@
-function $menuClique(){
-    const $buttonClique = document.getElementById('navBarMenu');
-    const $navMenu = document.getElementById('nav');
-    $buttonClique.addEventListener('click', event => {
-        $navMenu.style.background = "#00ff79e6";
-    })
-}
-
-
-
 document.onscroll= () => {
     var nav = document.getElementById('nav');
     window.addEventListener("scroll", function (event) {
-
-        if (window.scrollY < 550) {
-            nav.style.background = "transparent";
+        if (window.scrollY <= 500) {
+            nav.style.background = "rgba(0, 255, 121, 0.3)";
+            
         }
         else {       
-             nav.style.background = "#00ff79e6";
+             nav.style.background = "rgba(0, 255, 121, 0.8)";
         }
     });
 }
