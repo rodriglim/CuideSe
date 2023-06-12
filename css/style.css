@@ -5,6 +5,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     scroll-margin: 100px;
+    scroll-margin-bottom: 20px;
 }
 
 
@@ -12,7 +13,7 @@ body {
     font-family: 'Poppins', sans-serif;
     padding-top: 100px;
     height: 100vh;
-    background-color: rgba(0, 255, 121, 0.9);
+    background-color: #00ff79e6;
 }
 
 
@@ -27,6 +28,8 @@ nav .container {
     height: auto;
 }
 
+
+
 nav .container .navbar-toggler {
     background: linear-gradient(172.59deg, #3AA56D 3.94%, #00FF79 99.44%);
     color: #FFF;
@@ -36,6 +39,7 @@ nav .container .navbar-toggler {
     border: none;
     transition: 2s;
 }
+.menu-auxiliar {background-color:orange;} 
 
 nav .container .navbar-toggler:hover {
     transform: scale(0.9);
@@ -207,5 +211,20 @@ section .container .buttons #col a {
 }
 
 
+.group-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
 
 
+.group-card .card{
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0px 30px;
+    margin-bottom: 4%;
+    background: linear-gradient(180deg, #06F678 0%, #3AA56D 100%);
+    border: none;
+}
