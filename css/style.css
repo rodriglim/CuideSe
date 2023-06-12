@@ -9,6 +9,11 @@
 }
 
 
+html{
+    scroll-behavior: smooth;
+}
+
+
 body {
     font-family: 'Poppins', sans-serif;
     padding-top: 100px;
@@ -179,7 +184,7 @@ section .container .buttons .row {
     text-align: center;
 }
 
-section .container .buttons #col {
+section .container .buttons #vegan, #lactose, #gluten{
     background-color: #3F6953;
     width: 200px;
     height: 60px;
@@ -193,13 +198,14 @@ section .container .buttons #col {
     cursor: pointer;
     margin-top: 20px;
     margin-bottom: 40px;
+    border: none;
 }
 
-section .container .buttons #col:hover{
+section .container .buttons #vegan:hover, #lactose:hover, #gluten:hover{
     background: #04f177;
 }
 
-section .container .buttons #col a {
+section .container .buttons #vegan a, #lactose a, #gluten a{
     text-decoration: none;
     font-style: normal;
     font-weight: 700;

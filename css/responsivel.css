@@ -12,7 +12,7 @@
         font-size: 18px;
     }
 
-    section .container .buttons #col {
+    section .container .buttons #vegan, #lactose, #gluten {
         background-color: #3F6953;
         width: 140px;
         height: 50px;
@@ -72,14 +72,14 @@
         font-size: 25px;
     }
 
-    section .container .buttons #col {
+    section .container .buttons #vegan, #lactose, #gluten{
         background-color: #3F6953;
         width: 120px;
         height: 40px;
         margin: 0 10px;
     }
 
-    section .container .buttons #col a {
+    section .container .buttons #vegan a, #lactose a, #gluten a {
         font-size: 15px;
     }
 
@@ -130,7 +130,7 @@
         transform: rotate(-18deg);
     }
 
-    section .container .buttons #col {
+    section .container .buttons #vegan, #lactose, #gluten {
         background: transparent;
         border: 4px solid #04F978;
         width: 50px;
@@ -139,7 +139,7 @@
         border-radius: 100px;
     }
 
-    section .container .buttons #col a {
+    section .container .buttons #vegan a, #lactose a, #gluten a{
         display: none;
     }
 
