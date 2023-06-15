@@ -150,14 +150,21 @@
         height: 200px;
     }
     
-    .carousel-control-prev{
-        margin-left: 0px;
-    }
-    .carousel-control-next{
-        margin-right: 0px;
+    .carousel-control-prev, .carousel-control-next{
+        margin: 0px;
+        top: -100px;
     }
 
     .group-card .card .card-body{
         align-self: center;
+    }
+
+    .group-card .card .card-body{
+        margin-top: 100px;
+    }
+    
+    .group-card .card{
+        width: 80%;
+        height: 140px;
     }
 }
